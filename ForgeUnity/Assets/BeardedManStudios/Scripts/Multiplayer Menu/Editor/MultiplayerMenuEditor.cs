@@ -93,7 +93,7 @@ namespace BeardedManStudios.MultiplayerMenu.Editor
 				newSettings.getLocalNetworkConnections = getLocalNetworkConnections.boolValue;
 				newSettings.useTCP = useTCP.boolValue;
 
-				AssetDatabase.CreateAsset(newSettings, "Assets/Bearded Man Studios Inc/Scripts/New Forge Settings.asset");
+				AssetDatabase.CreateAsset(newSettings, "Assets/BeardedManStudios/Scripts/NewForgeSettings.asset");
 				AssetDatabase.SaveAssets();
 
 				settings.objectReferenceValue = newSettings;
